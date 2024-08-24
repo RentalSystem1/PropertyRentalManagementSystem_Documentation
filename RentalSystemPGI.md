@@ -1,4 +1,4 @@
-Project General Information
+
 
 Group Name: GROUP NAME
 
@@ -20,14 +20,18 @@ The primary objectives of the Property Rental Management System are to streamlin
 
 To develop a Travel booking System APP that will help manage the ______ with the following features:
 
-Rental Management
-Manage Visitor’s Entry
-Check-Out Visitors
-Visitors Management
-Search Records
-View Reports
-Update Password and Profile
+Admin Booking Management:
+Admins manage all booking activities, ensuring availability and accurate scheduling.
+ Profit Monitoring:
+The system allows admins to track and analyze profit margins, aiding financial decision-making.
+ Payment Processing:
+Facilitates secure payment collection and transaction tracking for room bookings.
+ Room Management:
+Admins can add, delete, and update room details to maintain an accurate listing.
+ User-Friendly Booking:
+Users can easily browse rooms and services, then book based on their specific needs
 
+E. Project Deliverables
 
 Requirements • Research and analysis • Data Gathering • User Stories • User Requirements • Use Case • Data Dictionary • Entity Relationship Diagram • Dataflow Diagram
 
@@ -39,8 +43,11 @@ Test • Functional • Non-Functional
 
 Deploy • User Acceptance Testing 
 
+F. Benchmarking
+ex.Booking 
+
 Prepared by:
 
 Group Members:
 
-Mary Joy Rodrigora, Joshua Nato, John Ruzzel Bacia 
+Mary Joy Rodrigora, Joshua Nato, John Ruzzel Bacia, Carlo Broa
