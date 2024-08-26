@@ -166,20 +166,14 @@ Use Cases
 ![13](https://github.com/user-attachments/assets/e05fbe3f-3825-48e7-a6d5-30f037e4e448)
 
 
-FIELD NAME	DESCRIPTION	DATA TYPE	LENGTH	SAMPLE
-id	Unique identifier	int	10	1001
-Title	Booking title	varchar	5	M
-FName	First name of the guest	text	-	John
-LName	Last name of the guest	text	-	Doe
-Email	Email address	varchar	50	john.doe@email.com
-National	Nationality	varchar	30	American
-Phone	Phone number	text	-	123-456-7890
-TRoom	Type of room booked	varchar	20	Deluxe
-NRoom	Number of rooms booked	varchar	2	2
-Meal	Meal preferences	varchar	15	Vegetarian
-cin	Check-in date	date	-	2024-09-01
-cout	Check-out date	date	-	2024-09-05
-
+| FIELD NAME | DESCRIPTION      | DATA TYPE     | LENGTH | SAMPLE |
+|------------|------------------|---------------|--------|--------|
+| id         | Primary key      | int unsigned  | 10     |        |
+| fullname   | Full name        | varchar       | 100    |        |
+| phone      | Phone number     | int           | 10     |        |
+| email      | Email address    | text          | N/A    |        |
+| date       | Contact date     | date          | N/A    |        |
+| approval   | Approval status  | varchar       | 12     |        |
 
 
 
