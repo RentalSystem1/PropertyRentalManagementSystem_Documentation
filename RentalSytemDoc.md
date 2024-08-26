@@ -160,9 +160,80 @@ Room Status: View current room status and manage room availability. Add Rooms: A
 Update Rooms: Modify details of existing rooms. Delete Rooms: Remove rooms from the system.
 
 
+Use Cases 
+
+
 ![13](https://github.com/user-attachments/assets/e05fbe3f-3825-48e7-a6d5-30f037e4e448)
 
 
+Data Dictionary
+
+
+FIELD NAME	DESCRIPTION	DATA TYPE	LENGTH	SAMPLE 
+id	Primary key	int unsigned	10	1
+fullname	Full name	varchar	100	JohnRuzzel 
+phone	Phone number	int	10	09052755830
+email	Email address	text	N/A	Natojoshua22@gmail.com
+date	Contact date	date	N/A	2024-08-26
+approval	Approval status	varchar	12	Approved
+
+
+
+FIELD NAME	DESCRIPTION	DATA TYPE	LENGTH	SAMPLE 
+id	Unique identifier	int	10	1
+name	Username	varchar	30	admin
+pass	Password	varchar	30	1234
+
+
+
+FIELD NAME	DESCRIPTION	DATA TYPE	LENGTH	SAMPLE 
+id	Unique identifier	int	11	1
+title	Title of the payment	varchar	5	Mr
+fname	First name of the guest	varchar	30	John 
+lname	Last name of the guest	varchar	30	Bacia 
+troom	Type of room booked	varchar	30	Simple 
+tbed	Type of bed booked	varchar	30	Simple
+nroom	Number of rooms
+booked	Int	11	
+cin	Check – in date	date	-	2
+cout	Check – in out	date	-	2024-08-25
+ttot	Total amount	Double	8.2	2024-08-30
+fintot	Final total amount	Double	8.2	900
+mepr	Meal price	Double	8.2	550.00
+meal	Meal type	varchar	30	Breakfast
+btot	Total booking amount	double	8.2	1050.00
+noofdays	Number of days	int	11	5
+ 
+
+
+
+
+FIELD NAME	DESCRIPTION	DATA TYPE	LENGTH	SAMPLE 
+id	Unique identifier	int	10	1
+type	Room type	varchar	15	Suite
+bedding	Room type	varchar	10	Double
+place	Room location/area	varchar	10	North Caloocan 
+cusid	Customer ID	int	11	500123
+
+
+
+FIELD NAME	DESCRIPTION	DATA TYPE	LENGTH	
+id	Unique identifier	int	10	1001
+Title	Booking title	varchar	5	Mr.
+FName	First name of the guest	text	-	John 
+LName	Last name of the guest	text	-	Bacia 
+Email	Email address	varchar	50	Natojoshua22@gmail.com
+National	Nationality	varchar	30	Philippines 
+Phone	Phone number	text	-	09052755830
+TRoom	Type of room booked	varchar	20	Simple 
+NRoom	Number of rooms
+booked	varchar	2	2 
+Meal	Meal preferences	varchar	15	None
+cin	Check-in date	date	-	2024-08-25
+cout	Check-out date	date	-	2024-08-26
+stat	Booking status	varchar	15	Confirmed
+nodays	Number of days booked	int	11	4
+ 
 
  
 
