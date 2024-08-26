@@ -166,11 +166,61 @@ Use Cases
 ![13](https://github.com/user-attachments/assets/e05fbe3f-3825-48e7-a6d5-30f037e4e448)
 
 
+| FIELD NAME | DESCRIPTION                          | DATA TYPE | LENGTH | SAMPLE        |
+|------------|--------------------------------------|-----------|--------|---------------|
+| USER_ID    | Primary key, unique identifier for users        | Int    | 255    | GETGETG2344   |
+| USERNAME     | Username for login    | Varchar    | 255     | idanan      |
+| EMAIL    | User's email address           | Varchar   | 255       | idanan@gmail.com          |
+| PASSWORD_HASH     | Encrypted password        | Varchar      | 255       | $3z$21$f5tHR8f9K7... |
+| ROLE     | User role (e.g., employer, job seeker, admin)        | Enum      |        | employer |
+| CREATED_AT    | Timestamp when the user was created        | Datetime      |        | 2024-08-20 12:34:56 |
+| UPDATED_AT    | Timestamp when the user data was last updated        | Datetime      |        | 2024-08-21 08:45:12 |
+
+### Table 2: JOB_POSTINGS
+
+| FIELD NAME | DESCRIPTION                          | DATA TYPE | LENGTH | SAMPLE        |
+|------------|--------------------------------------|-----------|--------|---------------|
+| JOB_ID    | Primary key, unique identifier for job postings        | Int    | 255    | HFQHFQH3455   |
+| EMPLOYER_ID     | Foreign key, references Users (employer)    | Int    | 255     | IGRIGRI4566      |
+| JOB_TITLE    | Title of the job           | Varchar   | 255       | Software Engineer          |
+| JOB_DESCRIPTION     | Detailed description of the job        | Text      |        | We are looking for a skilled developer... |
+| LOCATION     | Location of the job        | Varchar      | 255       | Philippines, Caloocan City |
+| CATEGORY    | Job category or industry        | Varchar      | 255       | Information Technology |
+| SALARY_RANGE    | Salary range for the position        | Varchar      | 50       | ₱45,000 - ₱65,000 |
+| CREATED_AT    | Timestamp when the job was posted        | Datetime      |        | 2024-08-20 09:15:30 |
+| UPDATED_AT    | Timestamp when the job posting was last updated        | Datetime      |        | 2024-08-21 10:00:00 |
+
+### Table 3: APPLICATIONS
+
+| FIELD NAME | DESCRIPTION                          | DATA TYPE | LENGTH | SAMPLE        |
+|------------|--------------------------------------|-----------|--------|---------------|
+| APPLICATION_ID    | Primary key, unique identifier for applications        | Int    | 255    | JHSJHSJ5677   |
+| JOB_ID     | Foreign key, references Job_Postings    | Int    | 255     | KITKITK6788      |
+| JOB_SEEKER_ID    | Foreign key, references Users (job seeker)           | Int   | 255       | LJULGUL7899          |
+| RESUME     | Uploaded resume file        | Blob      |        | Binary Data |
+| STATUS     | Application status (e.g., applied, under review)        | Enum      |        | under review |
+| APPLIED_AT    | Timestamp when the application was submitted        | Datetime      |        | 2024-08-20 14:22:45 |
+| UPDATED_AT    | Timestamp when the application status was updated        | Datetime      |        | 2024-08-21 11:30:00 |
+
+### Table 4: MESSAGES
+
+| FIELD NAME | DESCRIPTION                          | DATA TYPE | LENGTH | SAMPLE        |
+|------------|--------------------------------------|-----------|--------|---------------|
+| MESSAGE_ID    | Primary key, unique identifier for messages        | Int    | 255    | MKVMKVM8900   |
+| SENDER_ID     | Foreign key, references Users (sender)    | Int    | 255     | NLWNLWN9011      |
+| RECIPIENT_ID    | Foreign key, references Users (recipient)           | Int   | 255       | OMXOMXO0122          |
+| MESSAGE_TEXT     | Content of the message        | Text      |        | Hello, thank you for applying! |
+| SENT_AT     | Timestamp when the message was sent        | Datetime      |        | 2024-08-21 09:15:00 |
 
 
 
 
 
+
+
+
+
+Entity Relationship Diagrams
 ![14](https://github.com/user-attachments/assets/363b0b05-82b2-4ab7-8e66-b21990404b23)
  
 
