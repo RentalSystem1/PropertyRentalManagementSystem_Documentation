@@ -94,6 +94,7 @@ Room Status: View current room status and manage room availability. Add Rooms: A
 Update Rooms: Modify details of existing rooms. Delete Rooms: Remove rooms from the system.
 
 
+Work breakdown Structure
 
 ![12](https://github.com/user-attachments/assets/d5e9b9c0-af05-4727-9197-763276dae5e3)
 
