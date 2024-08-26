@@ -166,14 +166,22 @@ Use Cases
 ![13](https://github.com/user-attachments/assets/e05fbe3f-3825-48e7-a6d5-30f037e4e448)
 
 
-| FIELD NAME | DESCRIPTION      | DATA TYPE     | LENGTH | SAMPLE |
-|------------|------------------|---------------|--------|--------|
-| id         | Primary key      | int unsigned  | 10     |        |
-| fullname   | Full name        | varchar       | 100    |        |
-| phone      | Phone number     | int           | 10     |        |
-| email      | Email address    | text          | N/A    |        |
-| date       | Contact date     | date          | N/A    |        |
-| approval   | Approval status  | varchar       | 12     |        |
+| FIELD NAME | DESCRIPTION      | DATA TYPE     | LENGTH | SAMPLE              |
+|------------|------------------|---------------|--------|---------------------|
+| id         | Primary key      | int unsigned  | 10     | 1                   |
+| fullname   | Full name        | varchar       | 100    | JohnRuzzel          |
+| phone      | Phone number     | int           | 10     | 09052755830         |
+| email      | Email address    | text          | N/A    | Natojoshua22@gmail.com |
+| date       | Contact date     | date          | N/A    | 2024-08-26          |
+| approval   | Approval status  | varchar       | 12     | Approved            |
+
+
+| FIELD NAME | DESCRIPTION | DATA TYPE | LENGTH | SAMPLE |
+|------------|-------------|-----------|--------|--------|
+| id         | Unique identifier | int       | 10     | 1      |
+| name       | Username    | varchar   | 30     | admin  |
+| pass       | Password    | varchar   | 30     | 1234   |
+
 
 
 
