@@ -184,6 +184,51 @@ Use Cases
 
 
 
+| FIELD NAME | DESCRIPTION               | DATA TYPE | LENGTH | SAMPLE      |
+|------------|---------------------------|-----------|--------|-------------|
+| id         | Unique identifier         | int       | 11     | 1           |
+| title      | Title of the payment      | varchar   | 5      | Mr          |
+| fname      | First name of the guest   | varchar   | 30     | John        |
+| lname      | Last name of the guest    | varchar   | 30     | Bacia       |
+| troom      | Type of room booked       | varchar   | 30     | Simple      |
+| tbed       | Type of bed booked        | varchar   | 30     | Simple      |
+| nroom      | Number of rooms booked    | int       | 11     | 2           |
+| cin        | Check-in date             | date      | -      | 2024-08-25  |
+| cout       | Check-out date            | date      | -      | 2024-08-30  |
+| ttot       | Total amount              | double    | 8.2    | 900         |
+| fintot     | Final total amount        | double    | 8.2    | 550.00      |
+| mepr       | Meal price                | double    | 8.2    | 1050.00     |
+| meal       | Meal type                 | varchar   | 30     | Breakfast   |
+| btot       | Total booking amount      | double    | 8.2    | 1050.00     |
+| noofdays   | Number of days            | int       | 11     | 5           |
+
+
+| FIELD NAME | DESCRIPTION          | DATA TYPE | LENGTH | SAMPLE          |
+|------------|----------------------|-----------|--------|------------------|
+| id         | Unique identifier    | int       | 10     | 1                |
+| type       | Room type            | varchar   | 15     | Suite            |
+| bedding    | Bedding type         | varchar   | 10     | Double           |
+| place      | Room location/area   | varchar   | 10     | North Caloocan   |
+| cusid      | Customer ID          | int       | 11     | 500123           |
+
+
+
+| FIELD NAME | DESCRIPTION         | DATA TYPE | LENGTH | SAMPLE                  |
+|------------|---------------------|-----------|--------|--------------------------|
+| id         | Unique identifier   | int       | 10     | 1001                     |
+| Title      | Booking title       | varchar   | 5      | Mr.                      |
+| FName      | First name of the guest | text      | -      | John                     |
+| LName      | Last name of the guest  | text      | -      | Bacia                    |
+| Email      | Email address       | varchar   | 50     | Natojoshua22@gmail.com   |
+| National   | Nationality         | varchar   | 30     | Philippines              |
+| Phone      | Phone number        | text      | -      | 09052755830              |
+| TRoom      | Type of room booked | varchar   | 20     | Simple                   |
+| NRoom      | Number of rooms booked | varchar   | 2      | 2                        |
+| Meal       | Meal preferences    | varchar   | 15     | None                     |
+| cin        | Check-in date       | date      | -      | 2024-08-25               |
+| cout       | Check-out date      | date      | -      | 2024-08-26               |
+| stat       | Booking status      | varchar   | 15     | Confirmed                |
+| nodays     | Number of days booked | int       | 11     | 4                        |
 
 
 
