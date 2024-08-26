@@ -95,6 +95,10 @@ Update Rooms: Modify details of existing rooms. Delete Rooms: Remove rooms from 
 
 
 
+![12](https://github.com/user-attachments/assets/d5e9b9c0-af05-4727-9197-763276dae5e3)
+
+
+
 
  
 
