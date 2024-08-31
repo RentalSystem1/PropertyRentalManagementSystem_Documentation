@@ -51,3 +51,5 @@ Prepared by:
 Group Members:
 
 Mary Joy Rodrigora, Joshua Nato, John Ruzzel Bacia, Carlo Broa
+
+G. Estimated Project Duration: 4 to 5 months
